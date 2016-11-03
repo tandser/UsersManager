@@ -1,0 +1,19 @@
+1. На главной странице располагаются две ссылки:
+
+    rand - для генерации тестовых пользователей в существующей (!) БД;
+
+    next - переход к основному функционалу.
+
+2. Приложение работоспособно для БД следующего вида:
+
+    здесь один момент: имя таблицы строчными (user)
+
+    CREATE TABLE `test`.`user` (
+        `id` INT(8) NOT NULL AUTO_INCREMENT,
+        `name` VARCHAR(25) NOT NULL,
+        `age` INT NOT NULL,
+        `isAdmin` BIT NOT NULL,
+        `createdDate` TIMESTAMP NOT NULL,
+        PRIMARY KEY (`id`))
+    ENGINE = InnoDB
+    DEFAULT CHARACTER SET = utf8;
