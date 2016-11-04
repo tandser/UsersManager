@@ -54,8 +54,8 @@
                     <td>${item.isAdmin}</td>
                     <td>${item.createdDate}</td>
                     <td>
-                        <c:if test="${empty offset}"><a href="<c:url value='/update/${item.id}/offset/0'/>">Update</a></c:if>
-                        <c:if test="${!empty offset}"><a href="<c:url value='/update/${item.id}/offset/${offset}'/>">Update</a></c:if>
+                        <c:if test="${empty offset}"><a href="<c:url value='/update/${item.id}/offset/0'/>">Edit</a></c:if>
+                        <c:if test="${!empty offset}"><a href="<c:url value='/update/${item.id}/offset/${offset}'/>">Edit</a></c:if>
                     </td>
                     <td><a href="<c:url value='/remove/${item.id}'/>">Remove</a></td>
                 </tr>
