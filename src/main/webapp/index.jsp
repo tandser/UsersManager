@@ -19,15 +19,9 @@
             <br/>
 
             <div class="well" align="center">
-                <strong>
-                    <a href="<c:url value='/generate'/>">rand</a>
-                </strong>
-
+                <strong><a href="<c:url value='/generate'/>">rand</a></strong>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-
-                <strong
-                        ><a href="<c:url value='/users'/>">next</a>
-                </strong>
+                <strong><a href="<c:url value='/users'/>">next</a></strong>
             </div>
         </div>
     </body>

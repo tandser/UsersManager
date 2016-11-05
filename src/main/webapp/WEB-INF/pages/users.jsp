@@ -24,8 +24,8 @@
                 <form:form method="post" action="/users/selection" modelAttribute="template">
                     <table>
                         <tr>
-                            <td height="50" width="165"><form:input path="name" placeholder=" Search by name"/></td>
-                            <td width="70"><input type="submit" value="Search"/></td>
+                            <td height="50" width="180"><form:input path="name" placeholder=" Search by name"/></td>
+                            <td><input type="submit" value="Search"/></td>
                         </tr>
                     </table>
                 </form:form>
